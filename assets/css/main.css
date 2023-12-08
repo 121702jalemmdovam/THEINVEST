@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#World {
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://preview.colorlib.com/theme/invest/images/home_slider_1.jpg");
+}
+#World .container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#World .container .WorldItem {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0f0e0d;
+  opacity: 0.7;
+  padding: 20px;
+}
+#World .container .WorldItem h1 {
+  font-size: 55px;
+  color: #fff;
+}
+#World .container .WorldItem p {
+  width: 70%;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 500;
+}
+#World .container .WorldItem button {
+  width: 140px;
+  height: 50px;
+  border: none;
+  margin-top: 10px;
+  background-color: #FFA800;
+  color: #fff;
+  font-weight: 500;
+}
+#World .container .WorldItem button:hover {
+  color: #FFA800;
+  background-color: #fff;
+}
+
+#Bitcoin {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: #F5F9FA;
+}
+#Bitcoin .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+#Bitcoin .container .BitcoinItem {
+  margin-top: 20px;
+}
+#Bitcoin .container .BitcoinItem .line {
+  width: 60px;
+  height: 2px;
+  margin-top: 20px;
+  background-color: #FFA800;
+}
+#Bitcoin .container .BitcoinItem .text {
+  margin-top: 20px;
+}
+#Bitcoin .container .BitcoinItem .text span {
+  color: gray;
+  font-size: 12px;
+}
+#Bitcoin .container .BitcoinItem .text h3 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+#Bitcoin .container .BitcoinItem p {
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.92;
+  font-weight: 400;
+  color: #838383;
+}
+#Bitcoin .container .BitcoinItem button {
+  width: 140px;
+  height: 50px;
+  border: none;
+  margin-top: 10px;
+  background-color: #FFA800;
+  color: #fff;
+  font-weight: 500;
+}
+#Bitcoin .container .BitcoinItem button:hover {
+  color: #FFA800;
+  background-color: #fff;
+}
+
+#Crypto {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  position: relative;
+}
+#Crypto .container {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+#Crypto .container .CryptoHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#Crypto .container .CryptoHeader .CryptoLine {
+  width: 60px;
+  height: 2px;
+  margin-top: 20px;
+  background-color: #FFA800;
+}
+#Crypto .container .CryptoHeader span {
+  margin-top: 20px;
+  color: gray;
+  font-size: 12px;
+}
+#Crypto .container .CryptoHeader h3 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+#Crypto .container .CryptoCard {
+  margin: 20px;
+  background-color: #F5F9FA;
+}
+#Crypto .container .CryptoCard img {
+  width: 100%;
+  height: auto;
+}
+#Crypto .container .CryptoCard .Cryptotext {
+  padding: 20px;
+}
+#Crypto .container .CryptoCard .Cryptotext h5 {
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+#Crypto .container .CryptoCard .Cryptotext p {
+  padding-top: 20px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.92;
+  font-weight: 400;
+  color: #838383;
+}
+#Crypto .container .CryptoCard .Cryptotext button {
+  width: 140px;
+  height: 40px;
+  border: none;
+  margin-top: 10px;
+  background-color: #FFA800;
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  margin-top: 5px;
+}
+#Crypto .container .CryptoCard .Cryptotext button:hover {
+  color: #FFA800;
+  background-color: #fff;
+}

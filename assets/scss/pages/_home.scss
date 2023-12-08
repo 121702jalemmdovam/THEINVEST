@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#World{
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://preview.colorlib.com/theme/invest/images/home_slider_1.jpg');
+ .container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .WorldItem{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f0e0d; 
+    opacity: 0.7;
+    padding: 20px;
+    h1{
+        font-size: 55px;
+        color: #fff;
+    }
+    p{
+        width: 70%;
+        margin-top: 10px;
+        font-size: 13px;
+        color: #fff;
+        font-weight: 500;
+    }
+    button{
+       width: 140px;
+       height: 50px;
+       border: none;
+       margin-top: 10px;
+       background-color:#FFA800 ;
+       color: #fff;
+       font-weight: 500;
+       &:hover{
+        color: #FFA800;
+        background-color: #fff;
+       }
+    }
+    }
+ }
+}
+
+#Bitcoin{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    background-color: #F5F9FA;
+    .container{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        .BitcoinItem{
+            margin-top: 20px;
+            .line{
+                width: 60px;
+                height: 2px;
+                margin-top: 20px;
+                background-color: #FFA800;
+            }
+           .text{
+            margin-top: 20px;
+            span{
+                color: gray;
+                font-size: 12px;
+            }
+            h3{
+                margin-bottom: 0.5rem;
+                font-family: inherit;
+                font-weight: 500;
+                line-height: 1.2;
+                color: inherit;
+            }
+           }
+           p{
+            margin-top: 20px;
+            font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.92;
+    font-weight: 400;
+    color: #838383;
+     }
+     button{
+        width: 140px;
+        height: 50px;
+        border: none;
+        margin-top: 10px;
+        background-color:#FFA800 ;
+        color: #fff;
+        font-weight: 500;
+        &:hover{
+         color: #FFA800;
+         background-color: #fff;
+        }
+     }
+           }
+        }
+    }
+
+    #Crypto{
+        width: 100%;
+        height: auto;
+        padding: 30px;
+        position: relative;
+        .container{
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            .CryptoHeader{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                .CryptoLine{
+                    width: 60px;
+                height: 2px;
+                margin-top: 20px;
+                background-color: #FFA800;
+                }
+                span{
+                    margin-top: 20px;
+                    color: gray;
+                font-size: 12px;
+                }
+                h3{
+                margin-bottom: 0.5rem;
+                font-family: inherit;
+                font-weight: 500;
+                line-height: 1.2;
+                color: inherit;
+                }
+            }
+            .CryptoCard{
+              margin: 20px;
+                background-color:#F5F9FA ;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+                .Cryptotext{
+                 padding: 20px;
+                    h5{
+                        margin-bottom: 0.5rem;
+                font-family: inherit;
+                font-weight: 500;
+                line-height: 1.2;
+                color: inherit;
+                
+                    }
+                    p{
+                       padding-top: 20px 20px;
+                      
+                        font-family: 'Open Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.92;
+                font-weight: 400;
+                color: #838383;
+                    }
+                    button{
+                        width: 140px;
+                        height: 40px;
+                        border: none;
+                        margin-top: 10px;
+                        background-color:#FFA800 ;
+                        color: #fff;
+                        font-weight: 500;
+                        position: absolute;
+                         margin-top: 5px;
+                        &:hover{
+                         color: #FFA800;
+                         background-color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
